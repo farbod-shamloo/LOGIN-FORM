@@ -1,0 +1,96 @@
+@import url(reset.css);
+
+@font-face {
+    font-family: vazir;
+    src: url('fonts/vazir.eot');
+    src: url('fonts/vazir.eot?#iefix') format('embedded-opentype'), url('../fonts/vazir.woff2') format('woff2'), url('../fonts/vazir.woff') format('woff'), url('../fonts/vazir.ttf') format('truetype');
+    font-weight: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: vazirBold;
+    src: url('fonts/vazir-bold.eot');
+    src: url('fonts/vazir-bold.eot?#iefix') format('embedded-opentype'), url('../fonts/vazir-bold.woff2') format('woff2'), url('../fonts/vazir-bold.woff') format('woff'), url('../fonts/vazir-bold.ttf') format('truetype');
+    font-weight: normal;
+    font-display: swap;
+}
+
+body, input, button{
+    font-family:vazir;
+}
+*{
+    box-sizing: border-box;
+    font-family:vazir;
+}
+
+body{
+       font-family:vazir;
+       background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 29%, rgba(0,212,255,1) 100%);
+     
+}
+#section{
+    width: 28%;
+    height: 400px;
+    background-color: #fff;
+    margin: auto;
+    margin-top: 200px;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    text-align: right;
+    padding:50px 50px;
+}
+h1{
+    font-size: 23px;
+   font-family: vazirBold;
+    color:#1E88E5;
+}
+form{
+    padding-top: 20px;
+}
+input{
+    margin-top: 10px;
+    width:90%;
+    border: none;
+    background-color: #E4E4E4;
+    padding: 10px;
+    border-radius: 2px;
+}
+input:focus{
+    outline:none;
+    background-color: #e0e0e0;
+}
+
+button{
+    margin-top: 20px;
+    width: 90%;
+    border: none;
+    padding: 10px;
+    border-radius: 2px;
+    background-color:#1E88E5;
+    color: #fff;
+    cursor: pointer;
+}
+form label{
+    font-size: 14px;
+    display: block;
+    padding: 8px 0;
+}
+.visible{
+    width: 18px;
+    opacity: 0.6;
+    cursor: pointer;
+    position: absolute;
+    bottom: 10px;
+    right: 83%;
+}
+.visible:hover{
+    opacity: 0.8;
+}
+.password-inp{
+    padding-top: 15px;
+    position: relative;
+}
+
+
